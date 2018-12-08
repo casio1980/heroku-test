@@ -1,5 +1,5 @@
 const http = require('http');
-const port = process.env.port;
+const port = process.env.PORT;
 
 http.createServer((request, response) => {
     console.log(request.url);
